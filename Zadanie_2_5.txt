@@ -1,0 +1,30 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+int main()
+ {
+  double y,x;
+
+
+
+    for (x=-4;x<=4;x=x+0.5){
+       if (x==1 || x<-4 || x>4){
+    cout<<"erorr"<<endl;}
+      else{
+        y=(x*x-2*x+2)/(x-1);
+
+       cout<<"  "<<"x="<<x<<"  "<<"y="<<y<<endl;
+      }
+
+    }
+
+
+
+    return 0;
+  }
+
+
+
+

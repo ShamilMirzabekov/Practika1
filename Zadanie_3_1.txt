@@ -1,0 +1,27 @@
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	float m;
+	float p, S, r, n;
+	cin >> S;
+	cin >> p;
+	cin >> n;
+
+
+	if ((12*(pow(1 + p/100, n) - 1) == 0) || (n>60) ){
+		cout << "nelzya" << endl;
+		return 0;
+	}
+	else
+	{
+
+		m = (S * p/100 * pow(1 + p/100, n)/(12*( pow(1 + p/100, n) - 1)));
+
+		cout << m;
+
+	}
+}

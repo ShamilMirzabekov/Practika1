@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+int main()
+ {
+  double w, x, a;
+  cout<<"x";
+    cin>>x;
+  cout<<"a";
+    cin>>a;
+    if(a==x*x){
+       cout<<"erorr";
+    }
+    else if (fabs(x)<1 && x>-999999 && x<99999 && a>-999999 && a<99999){
+        cout<<"W="<< a*log((x));
+    }
+    else if(fabs(x)>=1 && x>-999999 && x<99999 && a>-999999 && a<99999){
+        cout<<"W="<<sqrt(a-x*x);
+    }
+
+
+
+    return 0;
+}

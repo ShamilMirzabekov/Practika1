@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+int main()
+ {
+  int b,y,x;
+  cout<<"b";
+    cin>>b;
+  cout<<"y";
+    cin>>y;
+  cout<<"x";
+    cin>>x;
+  if(b==x || b-y<=0){
+    cout<<"erorr";
+  }
+  else {
+    cout<<"Z"<<log(b-y)*sqrt(b-x);
+  }
+
+
+
+
+    return 0;
+}

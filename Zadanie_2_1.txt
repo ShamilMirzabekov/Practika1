@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+int main()
+ {
+   int h;
+   int R;
+   int r;
+
+        cout<<"h"<<endl;
+            cin>>h;
+
+        cout<<"R"<<endl;
+            cin>>R;
+
+        cout<< "r"<<endl;
+            cin>>r;
+    if(h<=0 || R<=0 || r<=0 || r>=R){
+        cout<<"erorr";
+    }
+    else {
+        cout<<"V "<<3.14*h*(R*R+R*r+r*r)/3<<endl<<"S "<<3.14*(R*R+(R+r)*sqrt((R-r)*(R-r)+h*h)+r*r);
+    }
+
+
+
+
+
+
+    return 0;
+}
